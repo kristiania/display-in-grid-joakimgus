@@ -6,41 +6,59 @@
 }
 
 grid-item {
-    border: 1px solid black;
-    border-radius: 10px;
 }
 
 #grid-one{
     background-color: red;
     color: red;
+    
     grid-row: 1;
     grid-column: 1 / span 2;
+
+    border: 1px solid black;
+    border-radius: 3px;
 }
 
 #grid-two{
     background-color: blue;
     color: blue;
+
     grid-row: 1;
     grid-column: 3 / span 2;
+
+    border: 1px solid black;
+    border-radius: 3px;
 }
 
 #grid-three{
     background-color: green;
     color: green;
+
     grid-row: 2;
     grid-column: 1 / span 1;
+
+    border: 1px solid black;
+    border-radius: 3px;
 }
 
 #grid-four{
     background-color: purple;
     color: purple;
+
     grid-row: 2;
     grid-column: 2 / span 3;
+
+    border: 1px solid black;
+    border-radius: 3px;
 }
 
 #grid-five{
     background-color:yellow;
     color: yellow;
+
     grid-row: 3;
     grid-column: 1 / span 4;
+
+    border: 1px solid black;
+    border-radius: 3px;
 }
